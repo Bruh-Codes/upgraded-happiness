@@ -26,20 +26,11 @@ See docs/RUNNING.md, docs/BENCHMARKS.md, docs/REALTIME.md. Generated samples are
 
 ## Video demos
 
-Click a preview to open its video. Samples are prerecorded renders, not live conversations.
+Click a thumbnail to watch the video. These are prerecorded test renders.
 
-### Stylized 3D character — FlashHead Pro
-[![Stylized character](samples/stylized-character.png)](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/stylized-character-pro.mp4)
-
-[Watch the English character test](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/stylized-character-pro.mp4)
-
-### Warm support avatar — FlashHead Lite
-[![Warm support portrait](samples/support-man-warm.png)](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/warm-support-man.mp4)
-
-[Watch the Lite greeting](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/warm-support-man.mp4)
-
-### Same portrait — FlashHead Pro
-- [Watch the 3-second Pro comparison](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/support-man-pro.mp4)
-- [Watch the 20-second Pro test](https://github.com/Bruh-Codes/upgraded-happiness/raw/refs/heads/main/samples/support-man-pro-20s.mp4)
+| Stylized character · Pro | Warm greeting · Lite | Short comparison · Pro | 20-second test · Pro |
+| :---: | :---: | :---: | :---: |
+| [<img src="samples/stylized-character.png" width="220" alt="Play stylized character Pro video">](samples/stylized-character-pro.mp4) | [<img src="samples/support-man-warm.png" width="220" alt="Play warm Lite greeting">](samples/warm-support-man.mp4) | [<img src="samples/support-man-warm.png" width="220" alt="Play short Pro comparison">](samples/support-man-pro.mp4) | [<img src="samples/support-man-warm.png" width="220" alt="Play 20-second Pro test">](samples/support-man-pro-20s.mp4) |
+| ▶ Play | ▶ Play | ▶ Play · 3 seconds | ▶ Play · 20 seconds |
 
 All included videos render at 512 × 512. The 768 experiment is documented in the benchmarks, but its video was not available in the recovered package. The 20-second Pro ending showed unwanted facial motion; it is retained as a test result, not a polished product demo.
