@@ -15,3 +15,16 @@ The 20-second Pro audio was padded/truncated to exactly 20 seconds. The owner fo
 GPU instances consume credits while running, including loading and idle time. Stop them after testing. Persistent storage may incur separate charges.
 
 Known environment issue: pip check reported Decord platform metadata incompatibility, although importing Decord succeeded. End-to-end tests completed; resolve this packaging warning before release.
+
+## Animator source and streaming UI
+
+The inference implementation is [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead); setup pins the tested upstream commit. Attribution and license information remain in NOTICE.md and the upstream files.
+
+After setup, launch the upstream streaming UI on the tested T4 compatibility path:
+
+```bash
+cd vendor/SoulX-FlashHead
+PATH="$PWD/.venv/bin:$PATH" FLASHHEAD_T4=1 .venv/bin/python gradio_app_streaming.py
+```
+
+Use private port forwarding for port 7860. This UI does not establish production conversational real-time performance; see BENCHMARKS.md and REALTIME.md.
