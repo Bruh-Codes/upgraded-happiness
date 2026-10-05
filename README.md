@@ -30,11 +30,13 @@ See docs/RUNNING.md, docs/BENCHMARKS.md, docs/REALTIME.md. Generated samples are
 
 ## Video demos
 
-These are prerecorded test renders. Play them directly below.
+These are prerecorded test renders. Play them directly below. GitHub starts embedded videos muted; enable sound using each player's speaker control (or its ⋮ menu).
 
 <table>
-<tr><th>Stylized character · Pro</th><th>Warm greeting · Lite</th><th>Short comparison · Pro · 3 seconds</th><th>20-second test · Pro</th></tr>
-<tr><td><video src="https://github.com/user-attachments/assets/7b39aabc-c0f2-462d-ba0e-18ef07de8827" controls width="220"></video></td><td><video src="https://github.com/user-attachments/assets/0bc9c157-7019-4438-8e3a-7a2910b2ea8a" controls width="220"></video></td><td><video src="https://github.com/user-attachments/assets/a035b00e-1ef4-400a-a9ff-98652eddf1e0" controls width="220"></video></td><td><video src="https://github.com/user-attachments/assets/eedab194-09a7-4d33-9a8d-bd3782353552" controls width="220"></video></td></tr>
+<tr><th>Stylized character · Pro</th><th>Warm greeting · Lite</th></tr>
+<tr><td><video src="https://github.com/user-attachments/assets/7b39aabc-c0f2-462d-ba0e-18ef07de8827" controls width="360"></video></td><td><video src="https://github.com/user-attachments/assets/0bc9c157-7019-4438-8e3a-7a2910b2ea8a" controls width="360"></video></td></tr>
+<tr><th>Short comparison · Pro · 3 seconds</th><th>20-second test · Pro</th></tr>
+<tr><td><video src="https://github.com/user-attachments/assets/a035b00e-1ef4-400a-a9ff-98652eddf1e0" controls width="360"></video></td><td><video src="https://github.com/user-attachments/assets/eedab194-09a7-4d33-9a8d-bd3782353552" controls width="360"></video></td></tr>
 </table>
 
 All included videos render at 512 × 512. The 768 experiment is documented in the benchmarks, but its video was not available in the recovered package. The 20-second Pro ending showed unwanted facial motion; it is retained as a test result, not a polished product demo.
